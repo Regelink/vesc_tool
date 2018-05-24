@@ -2724,13 +2724,13 @@ p, li { white-space: pre-wrap; }
         <motor_poles>
             <longName>Motor Poles</longName>
             <type>2</type>
-            <transmittable>0</transmittable>
+            <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;The number of motor poles. This is always a multiple of two.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
-            <cDefine></cDefine>
+            <cDefine>MCCONF_M_MOTOR_POLES</cDefine>
             <editorScale>1</editorScale>
             <editAsPercentage>0</editAsPercentage>
             <maxInt>100</maxInt>
@@ -2974,6 +2974,7 @@ p, li { white-space: pre-wrap; }
         <ser>m_bldc_f_sw_max</ser>
         <ser>m_dc_f_sw</ser>
         <ser>m_ntc_motor_beta</ser>
+        <ser>motor_poles</ser>
         <ser>s_lqr_A00</ser>
         <ser>s_lqr_A01</ser>
         <ser>s_lqr_A10</ser>
