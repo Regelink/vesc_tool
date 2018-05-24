@@ -1896,7 +1896,7 @@ p, li { white-space: pre-wrap; }
             <vTx>9</vTx>
         </p_pid_kd>
         <p_pid_kd_filter>
-            <longName>Position PID Kd Filer</longName>
+            <longName>Position PID Kd Filter</longName>
             <type>1</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1939,6 +1939,400 @@ p, li { white-space: pre-wrap; }
             <suffix></suffix>
             <vTx>9</vTx>
         </p_pid_ang_div>
+        <s_lqr_A00>
+            <longName>Element 0,0 of Matrix A</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Matrix A.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_A00</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_A00>
+        <s_lqr_A01>
+            <longName>Element 0,1 of Matrix A</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Matrix A.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_A01</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_A01>
+        <s_lqr_A10>
+            <longName>Element 1,0 of Matrix A</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Matrix A.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_A10</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_A10>
+        <s_lqr_A11>
+            <longName>Element 1,1 of Matrix A</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Matrix A.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_A11</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_A11>
+        <s_lqr_B0>
+            <longName>Element 0 of Vector B</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector B.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_B0</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_B0>
+        <s_lqr_B1>
+            <longName>Element 1 of Vector B</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector B.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_B1</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>1</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_B1>
+        <s_lqr_C0>
+            <longName>Element 0 of Vector C</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector C.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_C0</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>1</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_C0>
+        <s_lqr_C1>
+            <longName>Element 1 of Vector C</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector C.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_C1</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_C1>
+        <s_lqr_K0>
+            <longName>Element 0 of Vector K</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector K.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_K0</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_K0>
+        <s_lqr_K1>
+            <longName>Element 1 of Vector K</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector K.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_K1</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_K1>
+        <s_lqr_L0>
+            <longName>Element 0 of Vector L</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector L.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_L0</cDefine>
+            <editorDecimalsDouble>0</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+9</maxDouble>
+            <minDouble>-2e+9</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_L0>
+        <s_lqr_L1>
+            <longName>Element 1 of Vector L</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vector L.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_L1</cDefine>
+            <editorDecimalsDouble>0</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+9</maxDouble>
+            <minDouble>-2e+9</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_L1>
+        <s_lqr_Nbar>
+            <longName>Feed-forward gain</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Feed-forward gain.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_NBAR</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>2e+5</maxDouble>
+            <minDouble>-2e+5</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_Nbar>
+        <s_lqr_oversampling_factor>
+            <longName>Oversampling factor</longName>
+            <type>2</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Oversampling factor.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_OVERSAMPLING_FACTOR</cDefine>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxInt>1000</maxInt>
+            <minInt>0</minInt>
+            <showDisplay>0</showDisplay>
+            <stepInt>1</stepInt>
+            <valInt>1</valInt>
+            <suffix></suffix>
+            <vTx>5</vTx>
+        </s_lqr_oversampling_factor>
+        <s_lqr_voltage_filter_freq>
+            <longName>Voltage Filter Frequency</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Voltage Filter Frequency.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_VOLTAGE_FILTER_FREQ</cDefine>
+            <editorDecimalsDouble>4</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>100</maxDouble>
+            <minDouble>0</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+4</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_voltage_filter_freq>
+        <s_lqr_max_speed>
+            <longName>Maximum Speed</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Maximum Speed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_MAX_SPEED</cDefine>
+            <editorDecimalsDouble>0</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>10000</maxDouble>
+            <minDouble>0</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>1</valDouble>
+            <vTxDoubleScale>1</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_max_speed>
+        <s_lqr_max_voltage_drop>
+            <longName>Maximum Voltage Drop</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Maximum Voltage Drop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_MAX_VOLTAGE_DROP</cDefine>
+            <editorDecimalsDouble>2</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>30</maxDouble>
+            <minDouble>0</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>1</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+2</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_max_voltage_drop>
+        <s_lqr_max_duty>
+            <longName>Maximum Duty Cycle</longName>
+            <type>1</type>
+            <transmittable>1</transmittable>
+            <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; ; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Maximum Duty Cycle.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+            <cDefine>MCCONF_S_LQR_MAX_DUTY</cDefine>
+            <editorDecimalsDouble>3</editorDecimalsDouble>
+            <editorScale>1</editorScale>
+            <editAsPercentage>0</editAsPercentage>
+            <maxDouble>1</maxDouble>
+            <minDouble>0</minDouble>
+            <showDisplay>0</showDisplay>
+            <stepDouble>0.01</stepDouble>
+            <valDouble>0</valDouble>
+            <vTxDoubleScale>1e+3</vTxDoubleScale>
+            <suffix></suffix>
+            <vTx>9</vTx>
+        </s_lqr_max_duty>
         <cc_startup_boost_duty>
             <longName>Startup boost</longName>
             <type>1</type>
@@ -2580,5 +2974,23 @@ p, li { white-space: pre-wrap; }
         <ser>m_bldc_f_sw_max</ser>
         <ser>m_dc_f_sw</ser>
         <ser>m_ntc_motor_beta</ser>
+        <ser>s_lqr_A00</ser>
+        <ser>s_lqr_A01</ser>
+        <ser>s_lqr_A10</ser>
+        <ser>s_lqr_A11</ser>
+        <ser>s_lqr_B0</ser>
+        <ser>s_lqr_B1</ser>
+        <ser>s_lqr_C0</ser>
+        <ser>s_lqr_C1</ser>
+        <ser>s_lqr_K0</ser>
+        <ser>s_lqr_K1</ser>
+        <ser>s_lqr_L0</ser>
+        <ser>s_lqr_L1</ser>
+        <ser>s_lqr_Nbar</ser>
+        <ser>s_lqr_oversampling_factor</ser>
+        <ser>s_lqr_voltage_filter_freq</ser>
+        <ser>s_lqr_max_speed</ser>
+        <ser>s_lqr_max_voltage_drop</ser>
+        <ser>s_lqr_max_duty</ser>
     </SerOrder>
 </ConfigParams>

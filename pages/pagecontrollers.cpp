@@ -58,5 +58,25 @@ void PageControllers::setVesc(VescInterface *vesc)
         ui->paramTab->addParamRow(mVesc->mcConfig(), "p_pid_kd");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "p_pid_kd_filter");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "p_pid_ang_div");
+
+        ui->paramTab->addRowSeparator(tr("LQR Speed Controller"));
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_A00");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_A01");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_A10");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_A11");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_B0");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_B1");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_C0");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_C1");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_K0");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_K1");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_L0");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_L1");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_Nbar");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_oversampling_factor");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_voltage_filter_freq");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_speed");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_voltage_drop");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_duty");
     }
 }
