@@ -75,8 +75,12 @@ void PageControllers::setVesc(VescInterface *vesc)
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_Nbar");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_oversampling_factor");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_voltage_filter_freq");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_min_speed");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_speed");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_voltage_drop");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_min_duty");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_duty");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_thrust");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_thrust_rate");
     }
 }
