@@ -173,6 +173,7 @@ p, li { white-space: pre-wrap; }
             <enumNames>Duty Cycle No Reverse</enumNames>
             <enumNames>PID Speed Control</enumNames>
             <enumNames>PID Speed Control No Reverse</enumNames>
+            <enumNames>LQR Speed Control No Reverse</enumNames>
         </app_ppm_conf.ctrl_type>
         <app_ppm_conf.pid_max_erpm>
             <longName>PID Max ERPM</longName>
