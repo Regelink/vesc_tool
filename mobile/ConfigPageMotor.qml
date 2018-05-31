@@ -287,9 +287,17 @@ Item {
             createEditorMc("s_lqr_Nbar")
             createEditorMc("s_lqr_oversampling_factor")
             createEditorMc("s_lqr_voltage_filter_freq")
+            createEditorMc("s_lqr_min_speed")
             createEditorMc("s_lqr_max_speed")
+            createEditorMc("s_lqr_max_speed_per_volt")
+            createEditorMc("s_lqr_trunc_voltage_min")
+            createEditorMc("s_lqr_trunc_voltage_max")
             createEditorMc("s_lqr_max_voltage_drop")
+            createEditorMc("s_lqr_min_duty")
             createEditorMc("s_lqr_max_duty")
+            createEditorMc("s_lqr_max_thrust")
+            createEditorMc("s_lqr_max_thrust_rate")
+
             addSpacer()
             break;
 
