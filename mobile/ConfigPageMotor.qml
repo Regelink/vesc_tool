@@ -297,6 +297,7 @@ Item {
             createEditorMc("s_lqr_max_duty")
             createEditorMc("s_lqr_max_thrust")
             createEditorMc("s_lqr_max_thrust_rate")
+            createEditorMc("s_lqr_startup_time")
 
             addSpacer()
             break;

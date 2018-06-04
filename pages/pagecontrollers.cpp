@@ -85,5 +85,6 @@ void PageControllers::setVesc(VescInterface *vesc)
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_duty");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_thrust");
         ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_max_thrust_rate");
+        ui->paramTab->addParamRow(mVesc->mcConfig(), "s_lqr_startup_time");
     }
 }
