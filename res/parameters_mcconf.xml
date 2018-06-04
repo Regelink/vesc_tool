@@ -2508,7 +2508,7 @@ p, li { white-space: pre-wrap; }
             <vTxDoubleScale>1e+3</vTxDoubleScale>
             <suffix></suffix>
             <vTx>9</vTx>
-        </s_lqr_max_thrust_rate>
+        </s_lqr_startup_time>
         <cc_startup_boost_duty>
             <longName>Startup boost</longName>
             <type>1</type>
